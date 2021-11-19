@@ -10,9 +10,7 @@ export default function Home() {
         <Title>Hi, I'm Jinali</Title>
         <Avatar src="https://i.ibb.co/F8q3M7g/68109485.jpg" alt="" />
         <Introduction>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda
-          aliquam eaque voluptatibus dolorem aperiam autem cumque cupiditate
-          eligendi molestias eos!
+          I'm a Software Engineer from Colombo, Sri Lanka.
         </Introduction>
         <SocialMedia />
       </HomePageWrapper>

@@ -8,7 +8,7 @@ import {
   BsTwitter,
 } from "react-icons/bs"
 export const SocialMediaLinks = styled.div`
-  width: 60%;
+  width: 30%;
   margin: 1rem auto;
   display: flex;
   justify-content: space-between;
@@ -18,22 +18,22 @@ export const SocialMediaLinks = styled.div`
 export const SocialMediaLink = styled(Link)``
 
 export const Github = styled(BsGithub)`
-  width: 80px;
-  height: 80px;
+  width: 50px;
+  height: 50px;
 `
 export const Linkedin = styled(BsLinkedin)`
-  width: 80px;
-  height: 80px;
+  width: 50px;
+  height: 50px;
 `
 export const Twitter = styled(BsTwitter)`
-  width: 80px;
-  height: 80px;
+  width: 50px;
+  height: 50px;
 `
 export const Email = styled(BsEnvelopeFill)`
-  width: 80px;
-  height: 80px;
+  width: 50px;
+  height: 50px;
 `
 export const Medium = styled(BsMedium)`
-  width: 80px;
-  height: 80px;
+  width: 50px;
+  height: 50px;
 `

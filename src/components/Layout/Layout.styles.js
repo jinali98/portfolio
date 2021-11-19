@@ -21,7 +21,7 @@ html{
 
 export const ContentWrapper = styled.section`
   width: 80vw;
-  margin: 2rem auto;
+  margin: 1rem auto;
 `
 
 // 200, 300, 500, 700

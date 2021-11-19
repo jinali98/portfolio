@@ -1,6 +1,7 @@
 import { Link } from "gatsby"
 import React from "react"
 import { FiAlignJustify } from "react-icons/fi"
+import "./NavBar.css"
 const NavBar = () => {
   return (
     <nav className="navbar">
