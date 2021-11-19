@@ -14,6 +14,10 @@ a{
   text-decoration: none;
 }
 
+li{
+  list-style: none;
+}
+
 html{
   scroll-behavior: smooth;
 }

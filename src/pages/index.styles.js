@@ -12,6 +12,7 @@ export const Title = styled.h1`
   letter-spacing: 2px;
   font-weight: 700;
   color: #5f3dc4;
+  text-align: center;
 `
 
 export const Introduction = styled.p``
