@@ -36,6 +36,7 @@ const About = () => {
               <li>Reselect</li>
               <li>Material UI</li>
               <li>Styled-Components</li>
+              <li>Bootstrap</li>
               <li>npm</li>
             </ul>
           </div>

@@ -5,6 +5,12 @@ export const HomePageWrapper = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
+
+  & .imageOutterClass {
+    border-radius: 50%;
+    border: 10px solid whitesmoke;
+    outline: none;
+  }
 `
 
 export const Title = styled.h1`

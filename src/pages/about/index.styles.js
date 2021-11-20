@@ -32,6 +32,8 @@ export const AboutSubTitle = styled.h2`
   font-weight: 600;
 `
 export const SkillsSection = styled.div`
+  width: 100%;
+  margin: auto;
   display: flex;
   justify-content: space-around;
 
