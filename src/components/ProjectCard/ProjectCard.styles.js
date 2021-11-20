@@ -8,9 +8,12 @@ export const Card = styled.div`
   box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
     0 2px 4px -1px rgba(0, 0, 0, 0.06);
   text-align: center;
+  @media screen and (max-width: 992px) {
+    width: 90%;
+  }
 `
 export const ChipContent = styled.p`
-  padding: 8px 10px;
+  padding: 4px 8px;
   border-radius: 12px;
   background-color: #4640b3;
   color: #f0efff;
@@ -19,15 +22,26 @@ export const ChipContent = styled.p`
   font-size: 12px;
 `
 export const ChipContainer = styled.div`
-  width: 80%;
+  width: 90%;
   margin: 1rem auto;
   display: flex;
   justify-content: space-around;
+  flex-wrap: wrap;
+
+  @media screen and (max-width: 992px) {
+    width: 90%;
+    gap: 1.5px;
+  }
 `
 export const CardTitle = styled.h2`
   width: 50%;
   margin: 20px auto;
   text-align: center;
+
+  @media screen and (max-width: 992px) {
+    width: 100%;
+    font-size: 25px;
+  }
 `
 export const Image = styled.div`
   width: 300px;

@@ -8,7 +8,7 @@
   max-width: 1120px;
 }
 .nav-header {
-  height: 6rem;
+  height: 10vh;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -48,7 +48,7 @@
 
 @media screen and (min-width: 992px) {
   .navbar {
-    height: 6rem;
+    height: 10vh;
   }
   .nav-center {
     display: flex;
@@ -72,7 +72,7 @@
   .nav-link {
     padding: 0;
     border-top: none;
-    margin-right: 1rem;
-    font-size: 1rem;
+    margin-right: 1.5rem;
+    font-size: 1.5rem;
   }
 }

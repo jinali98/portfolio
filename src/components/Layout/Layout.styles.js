@@ -8,6 +8,7 @@ body{
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 300;
   
+  
 }
 
 a{
@@ -25,7 +26,12 @@ html{
 
 export const ContentWrapper = styled.section`
   width: 80vw;
+  min-height: calc(100vh - (10vh + 8vh));
   margin: 1rem auto;
+
+  @media screen and (max-width: 992px) {
+    width: 95vw;
+  }
 `
 
 // 200, 300, 500, 700

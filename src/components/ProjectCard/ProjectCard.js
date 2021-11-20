@@ -15,12 +15,12 @@ const ProjectCard = () => {
       <ChipContainer>
         <ChipContent>React</ChipContent>
         <ChipContent>Redux</ChipContent>
+        <ChipContent>Reselct</ChipContent>
+        <ChipContent>Material-UI</ChipContent>
         <ChipContent>React-Router</ChipContent>
+        <ChipContent>Redux-Persist</ChipContent>
         <ChipContent>Redux-Thunk</ChipContent>
         <ChipContent>Styled-Components</ChipContent>
-        <ChipContent>Material-UI</ChipContent>
-        <ChipContent>Reselct</ChipContent>
-        <ChipContent>Redux-Persist</ChipContent>
       </ChipContainer>
       <p>
         MyMeal is a web app where users can store their daily calorie intake,

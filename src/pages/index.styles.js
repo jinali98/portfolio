@@ -13,9 +13,21 @@ export const Title = styled.h1`
   font-weight: 700;
   color: #5f3dc4;
   text-align: center;
+
+  @media screen and (max-width: 992px) {
+    font-size: 35px;
+    letter-spacing: 1px;
+    margin: 1rem 0;
+  }
 `
 
-export const Introduction = styled.p``
+export const Introduction = styled.p`
+  @media screen and (max-width: 992px) {
+    width: 80%;
+    margin: 1rem auto;
+    text-align: center;
+  }
+`
 
 export const Avatar = styled.img`
   width: 250px;
