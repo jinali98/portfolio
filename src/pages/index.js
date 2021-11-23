@@ -5,16 +5,6 @@ import Layout from "../components/Layout/Layout"
 import SocialMedia from "../components/SocialMedia/SocialMedia"
 import { Avatar, HomePageWrapper, Introduction, Title } from "./index.styles"
 export default function Home() {
-  // const imageClass = {
-  //   borderRadius: "50%",
-  //   border: "10px solid whitesmoke",
-  //   outline: "none",
-  // }
-  // const imageOutterClass = {
-  //   width: 300,
-  //   height: 300,
-  // }
-
   return (
     <Layout>
       <HomePageWrapper>

@@ -1,3 +1,4 @@
+import { Link } from "gatsby"
 import React from "react"
 import {
   Card,
@@ -6,8 +7,8 @@ import {
   ChipContent,
   Image,
 } from "./ProjectCard.styles"
-
-const ProjectCard = () => {
+const ProjectCard = props => {
+  console.log(props)
   return (
     <Card>
       <CardTitle>MyMeal - Calorie Tracker App</CardTitle>
@@ -27,7 +28,9 @@ const ProjectCard = () => {
         find healthy recipes, collect favourite recipes, and learn about the
         calorie content of various food items.
       </p>
-      <button>View</button>
+      <Link to="/projects/amish-furniture-app">
+        <button>View</button>
+      </Link>
     </Card>
   )
 }

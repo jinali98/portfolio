@@ -35,7 +35,8 @@ export const SkillsSection = styled.div`
   width: 100%;
   margin: auto;
   display: flex;
-  justify-content: space-around;
+  flex-direction: column;
+  /* justify-content: space-around; */
 
   ul {
     text-align: center;
@@ -46,7 +47,6 @@ export const SkillsSection = styled.div`
   @media screen and (max-width: 992px) {
     width: 80%;
     margin: auto;
-    flex-direction: column;
     align-items: center;
     text-align: center;
     justify-content: space-between;

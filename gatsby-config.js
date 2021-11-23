@@ -6,6 +6,11 @@
 
 module.exports = {
   /* Your site config here */
+  siteMetadata: {
+    title: "Hi, I'm Jinali",
+    description: "I'm a Software Engineer from Colombo, Sri Lanka",
+    author: "@jinalipabasara",
+  },
   plugins: [
     `gatsby-plugin-styled-components`,
     `gatsby-plugin-image`,

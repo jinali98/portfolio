@@ -22,47 +22,43 @@ const About = () => {
         <SkillsSection>
           <div>
             <h2>Languages</h2>
-            <ul>
-              <li>JavaScript (ES5. ES6+)</li>
-              <li>HTML5</li>
-              <li>CSS (CSS3)</li>
-            </ul>
+            <p>JavaScript (ES5. ES6+), HTML5, CSS (CSS3)</p>
+          </div>
+          <div>
             <h2>Frameworks / Libraries</h2>
-            <ul>
-              <li>React.js</li>
-              <li>Gatsby.js</li>
-              <li>Redux</li>
-              <li>Redux-saga</li>
-              <li>Reselect</li>
-              <li>Material UI</li>
-              <li>Styled-Components</li>
-              <li>Bootstrap</li>
-              <li>npm</li>
-            </ul>
+            <p>
+              React.js,Redux, Redux-saga, Reselect, Material UI,
+              Styled-Components, Bootstrap
+            </p>
+          </div>
+          <div>
+            <h2>Static Site Generators</h2>
+            <p>GatsbyJS</p>
+          </div>
+          <div>
+            <h2>Tools</h2>
+            <p>npm, postman</p>
           </div>
           <div>
             <h2>Version Control</h2>
-            <ul>
-              <li>Git</li>
-            </ul>
+            <p>Git</p>
+          </div>
+          <div>
             <h2>Currently Learning</h2>
-            <ul>
-              <li>TypeScript</li>
-              <li>Python</li>
-            </ul>
+            <p>TypeScript, python</p>
+          </div>
+          <div>
             <h2>Recent Articles</h2>
-            <ul>
-              <li>
-                <a href="https://medium.com/@jinalipabasara/array-destructuring-in-javascript-b117c31418af">
-                  Array Destructuring in JavaScript
-                </a>
-              </li>
-              <li>
-                <a href="https://medium.com/@jinalipabasara/usestate-hook-in-react-hooks-42f99a08f8f">
-                  useState Hook in React Hooks
-                </a>
-              </li>
-            </ul>
+            <p>
+              <a href="https://medium.com/@jinalipabasara/array-destructuring-in-javascript-b117c31418af">
+                Array Destructuring in JavaScript
+              </a>
+            </p>
+            <p>
+              <a href="https://medium.com/@jinalipabasara/usestate-hook-in-react-hooks-42f99a08f8f">
+                useState Hook in React Hooks
+              </a>
+            </p>
           </div>
         </SkillsSection>
       </AboutWrapper>
